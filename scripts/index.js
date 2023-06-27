@@ -22,21 +22,21 @@ function SignIn() {
 
 //For create post
 
-const create_Model = document.getElementById("post_card");
+const create_Modal = document.getElementById("post_Modal");
 const createBtn = document.getElementById("createPost");
 
 
 createBtn.addEventListener("click", CreatePost)
 function CreatePost() {
-    create_Model.style.display = "block";
+    create_Modal.style.display = "block";
 }
 
 
 //Close Function for signUp
 const close_signUp = document.getElementById("closeSignUpId")
-close_signUp.addEventListener("click", CloseFunc)
+close_signUp.addEventListener("click", CloseFunction)
 
-function CloseFunc() {
+function CloseFunction() {
     signUp_Model.style.display = "none";
 }
 
@@ -51,9 +51,9 @@ function CloseFunc1() {
 
 //Close Function for create post
 const Create_Post = document.getElementById("closec")
-Create_Post.addEventListener("click", Closecre)
+Create_Post.addEventListener("click", CloseFunCre)
 
-function Closecre() {
+function CloseFunCre() {
     create_Model.style.display = "none";
 }
 
